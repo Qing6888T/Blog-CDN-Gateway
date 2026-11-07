@@ -1,8 +1,13 @@
 const DEFAULT_CONFIG = {
 	// CDN 测速地址，格式为 "访问地址#显示名称"。
 	URLS: [
-		'https://blog2.qhub.de5.net#主线路',
-		'https://blog.youxiu688.dpdns.org#辅线路'
+		'https://blog2.qhub.de5.net#de5.net',
+		'https://blog2.ghub.eu.cc#eu.cc',
+		'https://blog2.qhub.cc.cd#cc.cd',
+		'https://blog2.qhub.ccwu.cc#ccwu.cc',
+		'https://blog2.qhub.indevs.in#indevs.in',
+		'https://blog2.youxiu688.ggff.net#ggff.net',
+		'https://blog22.youxiu688.dpdns.org#dpdns.org'
 	],
 	// /ads.txt 返回内容。
 	ADS: 'google.com, pub-9350003957494520, DIRECT, f08c47fec0942fa0',
@@ -12,14 +17,14 @@ const DEFAULT_CONFIG = {
 	PNG: 'https://img.qhub.de5.net/file/1787650682905_666.webp',
 	// 背景图片，填写多张时会随机展示一张；留空则使用内置默认背景。
 	IMG: [
-		'https://raw.cmliussss.com/keqing1080p.jpg'
+		'https://img.qhub.de5.net/file/1787650690458_桌面.webp'
 	],
 	// 命中首个返回 200 的线路后，等待多少毫秒再跳转。
 	JUMP_DELAY: 999,
 	// 页脚内容，可以写备案号、统计代码或项目链接。
-	//BEIAN: `由 <a href="https://github.com/cmliu/Blog-CDN-Gateway" target="_blank" rel="noopener noreferrer">Blog-CDN-Gateway</a> 强力驱动`,
+	BEIAN: `由 <a href="" target="_blank" rel="noopener noreferrer">Qing BlogCDN</a> 强力驱动`,
 	// 页面主标题。
-	TITLE: 'BlogCDN 智能路由',
+	TITLE: 'Qing Blog CDN 智能路由',
 	// 浏览器标题栏中显示的站点名称。
 	NAME: 'Qing Blog CDN'
 };
