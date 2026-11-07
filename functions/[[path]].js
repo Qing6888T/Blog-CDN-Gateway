@@ -7,21 +7,21 @@ const DEFAULT_CONFIG = {
 	// /ads.txt 返回内容。
 	ADS: 'google.com, pub-9350003957494520, DIRECT, f08c47fec0942fa0',
 	// 网站图标，同时用于响应 /favicon.ico。
-	ICO: 'https://raw.cmliussss.com/favicon.ico',
+	ICO: 'https://img.qhub.de5.net/file/1787650682905_666.webp',
 	// 页面中间显示的头像或 Logo。
-	PNG: 'https://raw.cmliussss.com/IMG_0038.png',
+	PNG: 'https://img.qhub.de5.net/file/1787650682905_666.webp',
 	// 背景图片，填写多张时会随机展示一张；留空则使用内置默认背景。
 	IMG: [
-		//'https://raw.cmliussss.com/keqing1080p.jpg'
+		'https://raw.cmliussss.com/keqing1080p.jpg'
 	],
 	// 命中首个返回 200 的线路后，等待多少毫秒再跳转。
 	JUMP_DELAY: 999,
 	// 页脚内容，可以写备案号、统计代码或项目链接。
-	BEIAN: `由 <a href="https://github.com/cmliu/Blog-CDN-Gateway" target="_blank" rel="noopener noreferrer">Blog-CDN-Gateway</a> 强力驱动`,
+	//BEIAN: `由 <a href="https://github.com/cmliu/Blog-CDN-Gateway" target="_blank" rel="noopener noreferrer">Blog-CDN-Gateway</a> 强力驱动`,
 	// 页面主标题。
 	TITLE: 'BlogCDN 智能路由',
 	// 浏览器标题栏中显示的站点名称。
-	NAME: 'CMLiussss Blog'
+	NAME: 'Qing Blog CDN'
 };
 
 export async function onRequest(context) {
