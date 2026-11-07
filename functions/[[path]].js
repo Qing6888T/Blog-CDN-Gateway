@@ -1,10 +1,8 @@
 const DEFAULT_CONFIG = {
 	// CDN 测速地址，格式为 "访问地址#显示名称"。
 	URLS: [
-		'https://blog.cmliussss.com#Ali CDN',
-		'https://fastly.blog.cmliussss.com#Fastly CDN',
-		'https://vercel.blog.cmliussss.com#Vercel CDN',
-		'https://netlify.blog.cmliussss.com#Netlify CDN'
+		'https://blog2.qhub.de5.net#主线路',
+		'https://blog.youxiu688.dpdns.org#辅线路'
 	],
 	// /ads.txt 返回内容。
 	ADS: 'google.com, pub-9350003957494520, DIRECT, f08c47fec0942fa0',
